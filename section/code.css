@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.white-box{
+    justify-content: center;
+    margin-top: 500px;
+    background-color: white;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 5px;
+    border-bottom: 1px soild grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.img{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.flex:last-child{
+    border:none;
+}
+
